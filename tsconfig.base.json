@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "paths": {
+            "@shared/*": [
+                "packages/shared/src/*"
+            ],
+            "@email-protocols/*": [
+                "packages/email-protocols/src/*"
+            ]
+        }
+    }
+}

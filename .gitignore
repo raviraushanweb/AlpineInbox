@@ -1,0 +1,74 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+lib/
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache files
+.cache/
+.next/
+.nyc_output/
+turbo/
+.turbo/
+.vite/
+*.cache
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Misc
+*.tgz
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# Test output
+coverage/
+*.lcov
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
