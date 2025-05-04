@@ -36,6 +36,8 @@ turbo/
 .turbo/
 .vite/
 *.cache
+.vscode/
+vscode/
 
 # Editor directories and files
 .vscode/
